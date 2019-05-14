@@ -3,7 +3,7 @@ class Dog
   attr_accessor :name
   fido = Dog.new
 
-  def fido.bark
+  def self.bark
     puts "woof!"
   end
 
